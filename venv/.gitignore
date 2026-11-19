@@ -1,0 +1,17 @@
+
+# Ambiente virtual
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Cache do Pytest
+.pytest_cache/
+
+# Configuração do Pytest
+pytest.ini
+
+# Dependências do projeto
+requirements.txt
+

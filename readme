@@ -1,0 +1,31 @@
+🚀 Setup do Projeto
+
+1. 🐍 Verificar a instalação do Python
+python --version
+
+2. 📁 Criar e ativar o ambiente virtual
+Criar e ativar um ambiente virtual exclusivo para o projeto, isolando as dependências
+python -m venv venv
+venv\Scripts\activate
+
+3. 🎭 Instalar Playwright e Pytest
+Instalar todas as bibliotecas necessárias para rodar testes automatizados com Playwright no Pytest, incluindo os navegadores suportados
+pip install pytest pytest-playwright
+playwright install
+
+4. 📦 Gerenciar dependências (requirements.txt)
+Comando para salvas as bibliotecas "requirements" do projeto 
+pip freeze > requirements.txt
+
+Comando para salvar as bibliotecas "requirements" em outra máquina
+pip install -r requirements.txt
+
+5. ✅ Executar os testes
+pytest
+Para visualizar os testes com mais detalhes:
+pytest -v
+
+
+
+
+
